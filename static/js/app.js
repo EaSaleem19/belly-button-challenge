@@ -113,7 +113,7 @@ const displayMetaData = () => {
 
 // function to calculate guage chart data 
 const calculateGuage = () => {
-    // call the filter function that we created in app.js to filter the data based on selected value.
+    // call the filter function that we created above to filter the data based on selected value.
     var metadata = getSampleFiltered(api_data.metadata)
     console.log('meta deta filter in guage',metadata)
     console.log('meta deta frequency ',metadata.wfreq)
