@@ -71,7 +71,7 @@ const top10OTUs = (sample) => {
 
 const bacteriaChart = (sample) => {
     console.log("selected sample", sample)
-    // make the chart json data it only needs the sample ids  as x axis and sample values as y axis
+    // make the chart json data it only needs the sample ids as x axis and sample values as y axis
     let data = {
         trace: {
             x: sample.otu_ids,
@@ -180,7 +180,7 @@ const displayDashboard = () => {
     bacteriaChart(sample)
     // call display meta data function
     displayMetaData()
-    // call the calculate guage function created in bonus.js for gugage chart
+    // call the calculate guage function created above for gugage chart
     calculateGuage()
 }
 
